@@ -83,9 +83,3 @@ html, body{
     background-color: rgb(64, 95, 85);
     cursor: pointer;
 }
-body p{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-}
