@@ -30,7 +30,9 @@ function runTimer(){
         }
         else{
             clearInterval(timerint);
-            document.querySelector("#pbtm").innerHTML = `<h1>Game Over</h1>`;
+            document.querySelector("#pbtm").innerHTML = `<h1>Game Over</h1>
+  <h3>Your score is:</h3>
+  <p>${score}</p>`;
         }
     },1000);
 
@@ -43,7 +45,9 @@ document.querySelector("#pbtm").addEventListener("click", function(dets){
         getNewHit();
     }
     else{
-        document.querySelector("#pbtm").innerHTML = `<h1>Game Over</h1>`;
+        document.querySelector("#pbtm").innerHTML = `<h1>Game Over</h1>
+  <h3>Your score is:</h3>
+  <p>${score}</p>`;
 
     }
 
